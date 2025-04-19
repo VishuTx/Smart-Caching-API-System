@@ -38,6 +38,4 @@ The system also maintains data consistency. Any changes to the data—through up
 
 * When data is modified using POST, PUT, or DELETE, the corresponding cache entries are invalidated to ensure consistency.
 
-**License**
-
-MIT
+**GOOD NIGHT PEOPLE!**
