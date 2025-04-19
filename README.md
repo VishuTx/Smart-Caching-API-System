@@ -1,4 +1,4 @@
-Smart Caching API System
+**Smart Caching API System**
 A RESTful API built with Node.js, Express, MongoDB, and Redis, designed to implement intelligent caching for high-performance applications.
 
 This Smart Caching API System is intended for use cases where fast data access and optimized performance are essential. For instance, in an e-commerce platform or any service with frequent data retrieval—such as fetching product details, user profiles, or public listings—querying the database on every request can lead to latency and high resource usage.
@@ -7,7 +7,7 @@ To address this, the system integrates Redis to cache frequently accessed data:
 
 When a user requests a product, the API checks Redis for cached data.
 
-If the product is cached, the response is returned immediately—avoiding a database query.
+# If the product is cached, the response is returned immediately—avoiding a database query.
 
 If not, the data is fetched from MongoDB, returned to the user, and stored in Redis for future requests.
 
